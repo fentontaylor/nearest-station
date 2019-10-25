@@ -11,6 +11,5 @@ class SearchController < ApplicationController
 
     data = JSON.parse(response.body, symbolize_names: true)
     @station = Station.new(data[:fuel_stations].first)
-    binding.pry
   end
 end

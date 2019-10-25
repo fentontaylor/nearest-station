@@ -1,8 +1,7 @@
 <section class="station-info">
-  <h3 class="station-name">Name: </h3>
-  <p class="station-address">Address: </p>
-  <p class="station-address">Address: </p>
-  <p class="station-fuel-type">Fuel type: </p>
-  <p class="station-distance">Distance: </p>
-  <p class="station-access-times">Access times: </p>
+  <h3 class="station-name">Station name: <%= @station.name %></h3>
+  <p class="station-address">Address: <%= @station.address %></p>
+  <p class="station-fuel-type">Fuel types: <%= @station.fuel_types %></p>
+  <p class="station-distance">Distance: <%= @station.distance %> miles</p>
+  <p class="station-access-times">Access times: <%= @station.access_times %></p>
 </section>

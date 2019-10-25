@@ -16,10 +16,18 @@ describe 'As a user' do
       within('.station-info') do
         expect(page).to have_css('.station-name')
         expect(page).to have_content('Station name: Seventeenth Street Plaza')
+
         expect(page).to have_css('.station-address')
+        expect(page).to have_content("Address: 1225 17th St., Denver, CO 80202")
+
         expect(page).to have_css('.station-fuel-type')
+        expect(page).to have_content("Fuel types: ELEC")
+
         expect(page).to have_css('.station-distance')
+        expect(page).to have_content("Distance: 0.0934 miles")
+
         expect(page).to have_css('.station-access-times')
+        expect(page).to have_content("Access times: MO: Not Specified; TU: Not Specified; WE: Not Specified; TH: Not Specified; FR: Not Specified; SA: Not Specified; SU: Not Specified")
       end
       # For that station I should see
       # - Name
