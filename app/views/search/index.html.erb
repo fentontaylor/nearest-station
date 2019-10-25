@@ -1,14 +1,14 @@
 <section class="station-info">
-  <h3 class="station-name">Station name: <%= @station.name %></h3>
-  <p class="station-address">Address: <%= @station.address %></p>
-  <p class="station-fuel-type">Fuel types: <%= @station.fuel_types %></p>
-  <p class="station-distance">Distance: <%= @station.distance %> miles</p>
-  <p class="station-access-times">Access times: <%= @station.access_times %></p>
+  <h3 class="station-name">Station name: <%= @facade.station.name %></h3>
+  <p class="station-address">Address: <%= @facade.station.address %></p>
+  <p class="station-fuel-type">Fuel types: <%= @facade.station.fuel_types %></p>
+  <p class="station-distance">Distance: <%= @facade.station.distance %> miles</p>
+  <p class="station-access-times">Access times: <%= @facade.station.access_times %></p>
 </section>
 
 <section class="directions">
   <h3>Directions</h3>
-  <% @directions.each do |direction| %>
+  <% @facade.directions.each do |direction| %>
     <li><%= direction %></li>
   <% end %>
 </section>
