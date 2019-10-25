@@ -10,7 +10,7 @@ class SearchController < ApplicationController
     end
 
     data = JSON.parse(response.body, symbolize_names: true)
-    @station = data[:fuel_stations].first
+    @station = Station.new(data[:fuel_stations].first)
     binding.pry
   end
 end

@@ -15,6 +15,7 @@ describe 'As a user' do
       # Then I should see the closest electric fuel station to me.
       within('.station-info') do
         expect(page).to have_css('.station-name')
+        expect(page).to have_content('Station name: Seventeenth Street Plaza')
         expect(page).to have_css('.station-address')
         expect(page).to have_css('.station-fuel-type')
         expect(page).to have_css('.station-distance')
