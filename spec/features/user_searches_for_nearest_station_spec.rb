@@ -35,7 +35,7 @@ describe 'As a user' do
       #   "Head <b>southeast</b> on <b>17th St</b> toward <b>Larimer St</b>"
       within '.directions' do
         expect(page).to have_content('Head southeast on 17th St toward Larimer St')
-        expect(page).to have_content('Turn left onto Lawrence St Destination will be on the left')
+        expect(page).to have_content('Turn left onto Lawrence StDestination will be on the left')
       end
     end
   end

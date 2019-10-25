@@ -7,5 +7,8 @@
 </section>
 
 <section class="directions">
-  <p class="direction-detail"></p>
+  <h3>Directions</h3>
+  <% @directions.each do |direction| %>
+    <li><%= direction %></li>
+  <% end %>
 </section>
