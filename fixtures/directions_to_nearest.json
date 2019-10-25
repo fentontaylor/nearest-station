@@ -1,0 +1,115 @@
+{
+   "geocoded_waypoints": [
+      {
+         "geocoder_status": "OK",
+         "place_id": "ChIJFSt998R4bIcR0e3QWNXH9D8",
+         "types": [
+            "establishment",
+            "point_of_interest",
+            "school"
+         ]
+      },
+      {
+         "geocoder_status": "OK",
+         "place_id": "ChIJSQ5yENt4bIcRgA0Z9hwALOQ",
+         "types": [
+            "premise"
+         ]
+      }
+   ],
+   "routes": [
+      {
+         "bounds": {
+            "northeast": {
+               "lat": 39.7506258,
+               "lng": -104.9948971
+            },
+            "southwest": {
+               "lat": 39.7494563,
+               "lng": -104.9968234
+            }
+         },
+         "copyrights": "Map data ©2019 Google",
+         "legs": [
+            {
+               "distance": {
+                  "text": "0.1 mi",
+                  "value": 235
+               },
+               "duration": {
+                  "text": "1 min",
+                  "value": 75
+               },
+               "end_address": "17th Street Plaza, 1225 17th St, Denver, CO 80202, USA",
+               "end_location": {
+                  "lat": 39.7497894,
+                  "lng": -104.9948971
+               },
+               "start_address": "1331 17th St LL100, Denver, CO 80202, USA",
+               "start_location": {
+                  "lat": 39.7506258,
+                  "lng": -104.9968234
+               },
+               "steps": [
+                  {
+                     "distance": {
+                        "text": "0.1 mi",
+                        "value": 183
+                     },
+                     "duration": {
+                        "text": "1 min",
+                        "value": 51
+                     },
+                     "end_location": {
+                        "lat": 39.7494563,
+                        "lng": -104.9953195
+                     },
+                     "html_instructions": "Head <b>southeast</b> on <b>17th St</b> toward <b>Larimer St</b>",
+                     "polyline": {
+                        "points": "mxrqFbez_S@?Va@hAyAdCoD"
+                     },
+                     "start_location": {
+                        "lat": 39.7506258,
+                        "lng": -104.9968234
+                     },
+                     "travel_mode": "DRIVING"
+                  },
+                  {
+                     "distance": {
+                        "text": "171 ft",
+                        "value": 52
+                     },
+                     "duration": {
+                        "text": "1 min",
+                        "value": 24
+                     },
+                     "end_location": {
+                        "lat": 39.7497894,
+                        "lng": -104.9948971
+                     },
+                     "html_instructions": "Turn <b>left</b> onto <b>Lawrence St</b><div style=\"font-size:0.9em\">Destination will be on the left</div>",
+                     "maneuver": "turn-left",
+                     "polyline": {
+                        "points": "cqrqFv{y_S_AsAA?"
+                     },
+                     "start_location": {
+                        "lat": 39.7494563,
+                        "lng": -104.9953195
+                     },
+                     "travel_mode": "DRIVING"
+                  }
+               ],
+               "traffic_speed_entry": [],
+               "via_waypoint": []
+            }
+         ],
+         "overview_polyline": {
+            "points": "mxrqFbez_ShFkHaAsA"
+         },
+         "summary": "17th St",
+         "warnings": [],
+         "waypoint_order": []
+      }
+   ],
+   "status": "OK"
+}
